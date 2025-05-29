@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="created using create-react-app"/>
+	<title>Cloudtographer</title>
+	<style>
+	html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-image: url('assets/tether_astronaut.jpg');
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+	}
+	.overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0, 0.3);
+	}
+	.content {
+		position: relative;
+		width: 50%;
+		left: 25%;
+		height: 100%;
+		overflow: auto;
+	}
+	.content h1, .content p {
+		font-family: monospace;
+		font-size: 2em;
+		color: white;
+		text-shadow: 0 0 5px black;
+	}
+	.content h1 {}
+	.content p {}
+	.content p.credit {
+		float: right;
+		font-size: 1em;
+	}
+	a {
+		color: #ccf;
+	}
+	</style>
+</head>
+
+<body>
+<div class="overlay"></div>
+
+<div class="content">
+	<h1>Konectoscope</h1>
+
+	<p>Coming soon...</p>
+
+	<p>In this era, it's very easy to connect with people who are similar to us -- while becoming polarized and divided from those who are different.</p>
+
+	<p>Do you believe that at the most basic level we all just want to feel safe and loved? Can you respect someone with a different background, specific values, or opinion about how to make that happen? Then let us cut through the fear by starting to understand each other -- one at a time.</p>
+
+	<!--p>Sign up to be notified when this pen pal finder goes live.</p-->
+
+	<p><a href="https://www.facebook.com/konectoscope"><img src="assets/fb.png" style="height: 1em;"></a></p>
+
+	<p class="credit">[<a href="https://pixabay.com/en/astronaut-space-travel-gravity-1390007/" target="_blank">Photo</a>]</p>
+</div>
+
+</body>
+</html>
